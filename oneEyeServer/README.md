@@ -3,7 +3,12 @@
 This is a nodeJS server which listen to AWS SNS and pass the data to AngularJS UI via WebSocket
  
 ### Run
-In order to run the server use following command:
+
+- Install node packages
+
+``` npm install```
+
+- In order to run the server use following command:
 
 ```node bin/www```
 
