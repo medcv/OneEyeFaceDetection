@@ -1,0 +1,30 @@
+{
+  "name": "oneeyeserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-animate": "^1.6.8",
+    "angular-aria": "^1.6.8",
+    "angular-material": "^1.1.6",
+    "angular-messages": "^1.6.8",
+    "angular-resource": "^1.6.8",
+    "angular-route": "^1.6.8",
+    "aws-sdk": "^2.188.0",
+    "body-parser": "~1.18.2",
+    "bootstrap": "^4.0.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dynamodb-marshaler": "^2.0.0",
+    "express": "~4.15.5",
+    "jquery": "^3.3.1",
+    "morgan": "~1.9.0",
+    "popper.js": "^1.12.9",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "^2.0.4"
+  }
+}
