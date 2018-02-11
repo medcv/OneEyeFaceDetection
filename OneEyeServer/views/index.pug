@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+   p Welcome to #{title}
+   div
+    md-button(ng-click="toggleLeft()" class="md-primary" hide-gt-md) Menu
+
+  div(ng-view)

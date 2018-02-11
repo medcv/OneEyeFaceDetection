@@ -1,0 +1,21 @@
+doctype html
+html(ng-app = 'oneEye')
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='angular-material/angular-material.min.css')
+    script(src='jquery/dist/jquery.js')
+    script(src='angular/angular.min.js')
+    script(src='angular-material/angular-material.js')
+    script(src='angular-animate/angular-animate.min.js')
+    script(src='angular-aria/angular-aria.min.js')
+    script(src='angular-route/angular-route.js')
+    script(src='angular-resource/angular-resource.js')
+    script(src='/socket.io/socket.io.js')
+
+    script(src='javascripts/oneEye.js')
+    script(src='javascripts/SideNavCtrl.js')
+    script(src='javascripts/AppCtrl.js')
+    script(src='javascripts/services.js')
+  body(layout-padding)
+    block content
